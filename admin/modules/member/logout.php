@@ -1,0 +1,1 @@
+<td><?phpunset($_SESSION['ok']);unset($_SESSION['user']);unset($_SESSION['uid']);unset($_SESSION['idgu']);unset($_SESSION['cus']);header('location: index.php?mod=member&act=login');?></td>
